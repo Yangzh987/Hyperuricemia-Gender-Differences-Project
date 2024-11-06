@@ -1,0 +1,12 @@
+library(ggrain)
+library(ggplot2)
+setwd("C:/Users/lenovo/Desktop")
+data<-read.delim("chao1.txt",header = T,row.names = 1)
+
+ggplot(data, aes(group, value, fill = group)) +
+  geom_rain(alpha = .5) +
+  theme_bw() +
+  scale_fill_brewer(palette = 'Set2') +
+  guides(fill = 'none', color = 'none')+
+  coord_flip()+
+  scale_fill_manual(values = c("#E0EBF6","#A5A6C8","#FAEFEA","#E2B0A3","#6BAED6","#08519C"))

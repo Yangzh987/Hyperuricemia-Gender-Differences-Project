@@ -1,0 +1,19 @@
+library(readxl)
+dat01<-library(readxl)
+dat01<-read_excel("top10shu.xlsx")
+head(dat01)
+library(ggplot2)
+ggplot(data = dat01,aes(x=sample,y=n,fill=species))+
+  geom_bar(stat = "identity",
+           position = "stack")+
+ # scale_fill_manual(values = c("Bacteroidales" = "#F6EBDF", "Clostridiales" = "#E0EBF6", "Enterobacterales" = "#EBCBC6", "Fusobacteriaceae" = "#BFD8EA","Lachnospiraceae"="#D9948F","Prevotellaceae"="#6E94BA","zothers"="#BA6D6D")) 
+
+ggplot(data = dat01,aes(x=sample,y=n,fill=species))+
+  geom_bar(stat = "identity",
+           position = "fill") +  
+ scale_fill_manual(values = c("Bacteroidales" = "#F6EBDF", "Clostridiales" = "#E0EBF6", "Enterobacterales" = "#EBCBC6", "Fusobacteriaceae" = "#BFD8EA","Lachnospiraceae"="#D9948F","Prevotellaceae"="#6E94BA","others"="#BA6D6D")) 
+  #scale_fill_manual(values = c("Bacteroidales" = "#A5A6C8", "Clostridiales" = "#E2B0A3", "Enterobacterales" = "#BBC7DB", "Fusobacteriaceae" = "#EBCBC6","Lachnospiraceae"="#E0EBF6","Prevotellaceae"="#FAEFEA")) 
+#scale_fill_manual(values = c("Alloprevotella" = "#D7805B", "Anaerocolumna" = "#6FBCDC", "Bacteroides" = "#DC906F", "Dorea" = "#84C5E1","Escherichia-Shigella"="#E1A084","Faecalibacterium"="#ADD7EB","Fusobacterium"="#E6B098","Lachnoclostridium"="#C1E1F0","Lachnospira"="#F0D0C1","Parabacteroides"="#D6EBF5","Parasutterella"="#F5E0D6","Prevotella"="#EAF5FA","Prevotella_9"="#FAEFEA")) 
+
+ # scale_fill_manual(values = c("Alloprevotella" = "#FAEFEA", "Anaerocolumna" = "#EAF5FA", "Bacteroides" = "#F6EBDF", "Dorea" = "#E0EBF6","Escherichia-Shigella"="#EBCBC6","Faecalibacterium"="#C6E6EB","Fusobacterium"="#EAD0BE","Lachnoclostridium"="#BFD8EA","Lachnospira"="#DEA9A0","Parabacteroides"="#A0D5DE","Parasutterella"="#D9948F","Prevotella"="#6E94BA")) 
+

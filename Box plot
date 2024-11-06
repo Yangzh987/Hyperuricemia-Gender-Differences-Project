@@ -1,0 +1,10 @@
+library(ggplot2)
+library(ggpubr)
+library(magrittr)
+setwd("C:/Users/lenovo/Desktop")
+df <- read.table("567.txt",header = T,sep="\t",na.strings = "NA")
+
+p<- ggplot(df, aes(y=shannon, x=group,color=group)) +geom_boxplot(size=0.9,color = c("#7C96C4","#F9C589","#EE7977","#C04B41"))+
+  geom_point(size=1.8,shape=19,position=position_jitter(0.2))+theme_bw()+theme(panel.grid=element_blank())+
+  labs(y="Shannon")+scale_color_manual(values = c("#7C96C4","#F9C589","#EE7977","#C04B41")) +xlab(NULL)
+p+x11(width=4.5,height=5.5)

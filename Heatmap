@@ -1,0 +1,13 @@
+library(pheatmap)
+setwd("C:/Users/lenovo/Desktop")
+
+all<-read.table("reman.txt",header=TRUE,sep="\t",row.names=1)
+group<-as.factor(all[,1])
+data<-all[,-1]
+#heightҪ????break?ľ????ı?
+pheatmap(t(data),
+         cellwidth=1,cellheight=10,cluster_col = FALSE,height = 20,
+         cluster_rows = FALSE,gaps_col = c(185),
+         fontsize_row=12,legend_breaks = c(-4,-2,0,2,4), legend_lables= c(-4,-2,0,2,4),
+         fontsize_col=12,filename="man95.pdf",
+         color = colorRampPalette(c("#3F5A99","#88C756","#9556C7","#C75D56"))(10))

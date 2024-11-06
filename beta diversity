@@ -1,0 +1,66 @@
+library(vegan)
+library(permute)
+library(lattice)
+setwd("C:/Users/lenovo/Desktop")
+all <- read.table("hospitalbray.txt",header=T,row.names=1,sep="\t")   
+bray.dist<-vegdist(all,method="bray")    
+write.table(as.matrix(bray.dist),file="bray1.txt",sep="\t",col.names=NA)
+
+library(vegan)
+library(permute)
+library(lattice)
+library(ggplot2)
+library(plyr)
+setwd("C:/Users/lenovo/Desktop")
+dis <- read.delim('bray1.txt', row.names = 1, sep = '\t', stringsAsFactors = F, check.names = F)
+group <- read.delim('braygroup.txt', sep = '\t', stringsAsFactors = F)
+pcoa <- cmdscale(as.dist(dis), k = (nrow(dis) - 1), eig = T)
+pcoa$eig
+point <- data.frame(pcoa$point)
+write.csv(point, '8wpcoa.sample.csv')
+
+pcoa_eig <- (pcoa$eig)[1:2] / sum(pcoa$eig)
+pcoa_eig
+sample_site <- data.frame({pcoa$point})[1:2]
+sample_site$names <- rownames(sample_site)
+names(sample_site)[1:2] <- c('PCoA1', 'PCoA2')
+sample_site <- merge(sample_site,group, by = 'names', all.x = T)
+write.csv(sample_site, '8wsample_site.csv',quote = F)
+extract_letter <- function(x){
+  B<-strsplit(x,"") 
+  C<-""
+  for (i in 1:length(B[[1]])){
+    if (is.na(as.numeric(B[[1]][i]))){
+      C <- paste(C,B[[1]][i],sep="")
+    }
+    else{
+      break
+    }
+  }
+  return(C)
+}
+
+setwd("C:/Users/lenovo/Desktop")
+aaa <- read.table("pcoa.txt",header = T,row.names = 1,sep="\t")
+library(ggplot2)
+p <-ggplot(aaa,aes(x=PCoA1,y=PCoA2,colour=group))+
+  geom_point(size=4)+scale_size_area()+stat_ellipse(level=0.5,mapping= aes(colour=group))+
+  scale_colour_brewer(type = "div", palette = "Dark2")+theme_classic()+
+  geom_vline(xintercept = 0, color = 'black', size = 0.4, linetype = 4)+
+  geom_hline(yintercept = 0, color = 'black', size = 0.4, linetype = 4)+
+  theme(panel.grid = element_line(color = 'gray', linetype = 2, size = 0.1), 
+        panel.background = element_rect(color = 'black', fill = 'transparent'), 
+        legend.title=element_blank(),legend.position = c(0.1,0.73),
+        legend.key.size=unit(3,'mm'),legend.key.width=unit(3,'mm'))+
+  labs(x="PC1(44.02%)", y="PC2(14.09%)")+
+  theme(plot.title = element_text(hjust = 0.5))+
+  scale_colour_manual(values = c("#BBC7DB", "#3F5A99","#EBCBC6", "#C75D56"))
+p+x11(width=6.5,height=5.5)
+
+setwd("C:/Users/lenovo/Desktop")
+all <- read.table("PCOAP1.txt",header=T,row.names=1,sep="\t")
+a <- read.table("PCOAP2.txt",header=T,row.names=1,sep="\t")
+library(permute)
+library(lattice)
+library(vegan)
+adonis2(all~ group,data=a,permutations = 9999)

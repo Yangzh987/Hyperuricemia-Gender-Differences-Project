@@ -1,0 +1,15 @@
+otu <- read.delim('hospital.txt', row.names = 1, sep = '\t', stringsAsFactors = FALSE, check.names = FALSE)
+otu <- t(otu)
+library(lattice)
+library(permute)
+library(vegan)
+richness <- rowSums(otu > 0)
+shannon_index <- diversity(otu, index = 'shannon', base = exp(1))
+gini_simpson_index <- diversity(otu, index = 'simpson')
+#chao1<-estimateR(otu)[2,]
+#ACE <- estimateR(otu)[4,]
+#ace_index <- estimateR(species_abundance, index = "ace")
+write.csv(shannon_index,  'shannon.csv', quote = FALSE)
+write.csv(gini_simpson_index, 'simpon.csv', quote = FALSE)
+#write.csv(chao1, 'chao1woman2.csv', quote = FALSE)
+#write.csv(ACE, 'ace.csv', quote = FALSE)

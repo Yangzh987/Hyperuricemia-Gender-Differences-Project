@@ -1,0 +1,8 @@
+library(WGCNA)
+setwd("C:/Users/zeng/Desktop")
+gene4 <- read.csv("ab.csv",header = T,row.names = 1)
+metaGeneCor.r <- cor(gene4,method="spearman")
+write.csv(metaGeneCor.r,file="MetaCorGene.r.csv")
+nmeta=nrow(gene4)#????????��
+metaGeneCor.p <- corPvalueStudent(metaGeneCor.r, nmeta)
+write.csv(metaGeneCor.p,file = "MetaCorGene.p.csv")

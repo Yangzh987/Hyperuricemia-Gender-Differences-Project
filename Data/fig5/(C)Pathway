@@ -1,0 +1,26 @@
+Pathway	Pvalue	Abundance	log2FoldChange
+Transporters [BR:ko02000]	0.026517701	31624528.15	-3.211642711
+DNA repair and recombination proteins [BR:ko03400]	0.026281617	11637405.53	-3.230002871
+Transfer RNA biogenesis [BR:ko03016]	0.026281617	10165434.47	-3.238406895
+Ribosome [BR:ko03011]	0.024902915	9309228.722	-3.257333283
+Peptidases and inhibitors [BR:ko01002]	0.026281617	7629055.88	-3.212827206
+Chromosome and associated proteins [BR:ko03036]	0.026755614	6979725.696	-3.267494922
+Purine metabolism [PATH:ko00230]	0.024457482	6535419.426	-3.278860644
+Exosome [BR:ko04147]	0.026875261	6089567.598	-3.302000303
+Amino acid related enzymes [BR:ko01007]	0.026164258	5814935.15	-3.293957214
+Amino sugar and nucleotide sugar metabolism [PATH:ko00520]	0.027725792	5495091.724	-3.375919644
+Pyrimidine metabolism [PATH:ko00240]	0.025584233	5000662.019	-3.289185796
+Mitochondrial biogenesis [BR:ko03029]	0.025469573	4976285.526	-3.239297459
+DNA replication proteins [BR:ko03032]	0.024347208	4941475.956	-3.260330226
+Glycolysis / Gluconeogenesis [PATH:ko00010]	0.022027905	4711819.168	-3.269008204
+Starch and sucrose metabolism [PATH:ko00500]	0.021429726	4610941.109	-3.290293523
+Chaperones and folding catalysts [BR:ko03110]	0.027480446	4582766.995	-3.305741131
+Cysteine and methionine metabolism [PATH:ko00270]	0.027725792	4440777.309	-3.251712118
+Peptidoglycan biosynthesis and degradation proteins [BR:ko01011]	0.026995369	4440596.205	-3.227123338
+Aminoacyl-tRNA biosynthesis [PATH:ko00970]	0.028222154	4246142.301	-3.222245186
+aspartate and glutamate metabolism [PATH:ko00250]	0.027725792	4189946.309	-3.261381909
+Oxidative phosphorylation [PATH:ko00190]	0.021528429	4072754.058	-3.345115106
+ serine and threonine metabolism [PATH:ko00260]	0.023694574	3997409.559	-3.334306002
+Prokaryotic defense system [BR:ko02048]	0.026755614	3937547.327	-3.323404559
+Pyruvate metabolism [PATH:ko00620]	0.028097351	3883599.379	-3.207661854
+Carbon fixation pathways in prokaryotes [PATH:ko00720]	0.027725792	3820125.422	-3.35940162

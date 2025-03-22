@@ -1,0 +1,115 @@
+from	to	eweight	consensus_lin
+Roseburia	Chromosome and associated proteins	0.113343796	Roseburia
+Roseburia	Purine metabolism	0.104881495	Roseburia
+Roseburia	Cysteine and methionine metabolism	0.116082245	Roseburia
+Roseburia	Aminoacyl-tRNA biosynthesis	0.121938111	Roseburia
+Roseburia	aspartate and glutamate metabolism	0.113075195	Roseburia
+Roseburia	serine and threonine metabolism	0.109329722	Roseburia
+Roseburia	dld	0.120656388	Roseburia
+Roseburia	lldR	-0.116544011	Roseburia
+Roseburia	E2	0.115078628	Roseburia
+Roseburia	TSTO	-0.112942175	Roseburia
+Roseburia	PROG	0.112904198	Roseburia
+Roseburia	Cys.C	0.116368625	Roseburia
+Roseburia	Crea	0.235532586	Roseburia
+Roseburia	Urea	0.114261608	Roseburia
+Roseburia	UA	-0.143240788	Roseburia
+Chromosome and associated proteins	lldD	0.540508351	Chromosome and associated proteins
+Chromosome and associated proteins	dld	0.883119262	Chromosome and associated proteins
+Chromosome and associated proteins	lldR	0.541721564	Chromosome and associated proteins
+Chromosome and associated proteins	hprT, hpt, HPRT1	0.491761825	Chromosome and associated proteins
+Chromosome and associated proteins	lldG	0.463851455	Chromosome and associated proteins
+Chromosome and associated proteins	ldhA	0.449646087	Chromosome and associated proteins
+Chromosome and associated proteins	LDHD, dld	0.450618084	Chromosome and associated proteins
+Chromosome and associated proteins	uraH, pucM, hiuH	0.442698683	Chromosome and associated proteins
+Chromosome and associated proteins	allB	0.877569251	Chromosome and associated proteins
+Chromosome and associated proteins	uCr	0.263884125	Chromosome and associated proteins
+Chromosome and associated proteins	Cys.C	0.112146746	Chromosome and associated proteins
+Chromosome and associated proteins	Urea	0.128429932	Chromosome and associated proteins
+Purine metabolism	lldD	0.549483348	Purine metabolism
+Purine metabolism	dld	0.886980312	Purine metabolism
+Purine metabolism	lldR	0.543811254	Purine metabolism
+Purine metabolism	hprT, hpt, HPRT1	0.501591422	Purine metabolism
+Purine metabolism	lldG	0.473864358	Purine metabolism
+Purine metabolism	ldhA	0.459985614	Purine metabolism
+Purine metabolism	LDHD, dld	0.461021052	Purine metabolism
+Purine metabolism	uraH, pucM, hiuH	0.454047477	Purine metabolism
+Purine metabolism	allB	0.881895176	Purine metabolism
+Purine metabolism	uCr	0.259794521	Purine metabolism
+Purine metabolism	Cys.C	0.110054898	Purine metabolism
+Purine metabolism	Urea	0.123107721	Purine metabolism
+Cysteine and methionine metabolism	lldD	0.539218588	Cysteine and methionine metabolism
+Cysteine and methionine metabolism	dld	0.885422601	Cysteine and methionine metabolism
+Cysteine and methionine metabolism	lldR	0.546807544	Cysteine and methionine metabolism
+Cysteine and methionine metabolism	hprT, hpt, HPRT1	0.491381994	Cysteine and methionine metabolism
+Cysteine and methionine metabolism	lldG	0.462850348	Cysteine and methionine metabolism
+Cysteine and methionine metabolism	ldhA	0.448603258	Cysteine and methionine metabolism
+Cysteine and methionine metabolism	LDHD, dld	0.449592946	Cysteine and methionine metabolism
+Cysteine and methionine metabolism	uraH, pucM, hiuH	0.442354198	Cysteine and methionine metabolism
+Cysteine and methionine metabolism	allB	0.879623235	Cysteine and methionine metabolism
+Cysteine and methionine metabolism	uCr	0.258236859	Cysteine and methionine metabolism
+Cysteine and methionine metabolism	Cys.C	0.111279387	Cysteine and methionine metabolism
+Cysteine and methionine metabolism	Urea	0.126932251	Cysteine and methionine metabolism
+Aminoacyl-tRNA biosynthesis	lldD	0.528756904	Aminoacyl-tRNA biosynthesis
+Aminoacyl-tRNA biosynthesis	dld	0.876967677	Aminoacyl-tRNA biosynthesis
+Aminoacyl-tRNA biosynthesis	lldR	0.538151866	Aminoacyl-tRNA biosynthesis
+Aminoacyl-tRNA biosynthesis	hprT, hpt, HPRT1	0.480357115	Aminoacyl-tRNA biosynthesis
+Aminoacyl-tRNA biosynthesis	lldG	0.454073354	Aminoacyl-tRNA biosynthesis
+Aminoacyl-tRNA biosynthesis	ldhA	0.43966891	Aminoacyl-tRNA biosynthesis
+Aminoacyl-tRNA biosynthesis	LDHD, dld	0.440701606	Aminoacyl-tRNA biosynthesis
+Aminoacyl-tRNA biosynthesis	uraH, pucM, hiuH	0.432778434	Aminoacyl-tRNA biosynthesis
+Aminoacyl-tRNA biosynthesis	allB	0.871366757	Aminoacyl-tRNA biosynthesis
+Aminoacyl-tRNA biosynthesis	uCr	0.260839732	Aminoacyl-tRNA biosynthesis
+Aminoacyl-tRNA biosynthesis	Cys.C	0.113389229	Aminoacyl-tRNA biosynthesis
+Aminoacyl-tRNA biosynthesis	Urea	0.126965783	Aminoacyl-tRNA biosynthesis
+aspartate and glutamate metabolism	lldD	0.532685637	aspartate and glutamate metabolism
+aspartate and glutamate metabolism	dld	0.886028005	aspartate and glutamate metabolism
+aspartate and glutamate metabolism	lldR	0.530728054	aspartate and glutamate metabolism
+aspartate and glutamate metabolism	hprT, hpt, HPRT1	0.483601233	aspartate and glutamate metabolism
+aspartate and glutamate metabolism	lldG	0.459595758	aspartate and glutamate metabolism
+aspartate and glutamate metabolism	ldhA	0.445764532	aspartate and glutamate metabolism
+aspartate and glutamate metabolism	LDHD, dld	0.446704199	aspartate and glutamate metabolism
+aspartate and glutamate metabolism	uraH, pucM, hiuH	0.436515637	aspartate and glutamate metabolism
+aspartate and glutamate metabolism	allB	0.878827004	aspartate and glutamate metabolism
+aspartate and glutamate metabolism	uCr	0.262131795	aspartate and glutamate metabolism
+aspartate and glutamate metabolism	Cys.C	0.11137637	aspartate and glutamate metabolism
+aspartate and glutamate metabolism	Urea	0.124349337	aspartate and glutamate metabolism
+serine and threonine metabolism	lldD	0.542199889	serine and threonine metabolism
+serine and threonine metabolism	dld	0.888429501	serine and threonine metabolism
+serine and threonine metabolism	lldR	0.546349672	serine and threonine metabolism
+serine and threonine metabolism	hprT, hpt, HPRT1	0.492832427	serine and threonine metabolism
+serine and threonine metabolism	lldG	0.468148014	serine and threonine metabolism
+serine and threonine metabolism	ldhA	0.453225377	serine and threonine metabolism
+serine and threonine metabolism	LDHD, dld	0.454209269	serine and threonine metabolism
+serine and threonine metabolism	uraH, pucM, hiuH	0.445863066	serine and threonine metabolism
+serine and threonine metabolism	allB	0.882179588	serine and threonine metabolism
+serine and threonine metabolism	uCr	0.258184677	serine and threonine metabolism
+serine and threonine metabolism	Cys.C	0.1093016	serine and threonine metabolism
+serine and threonine metabolism	Urea	0.124284406	serine and threonine metabolism
+lldD	uCr	0.116649297	lldD
+lldD	Urea	0.100174811	lldD
+lldD	UA	-0.142951058	lldD
+dld	FSH	0.100980375	dld
+dld	uCr	0.204013987	dld
+dld	UA	-0.10920735	dld
+lldR	PROG	0.102596497	lldR
+lldR	uCr	0.132015453	lldR
+lldR	UA	-0.146552348	lldR
+hprT, hpt, HPRT1	UA	-0.12025665	hprT, hpt, HPRT1
+allB	PRL	-0.10205069	allB
+allB	uCr	0.210544949	allB
+E2	Cys.C	-0.18027663	E2
+E2	Urea	-0.18150375	E2
+E2	UA	-0.151819041	E2
+LH	Cys.C	0.284287246	LH
+LH	Crea	0.142431627	LH
+FSH	Cys.C	0.236532599	FSH
+FSH	Crea	0.115024339	FSH
+FSH	Urea	0.190657753	FSH
+PRL	Cys.C	-0.10941571	PRL
+PRL	Urea	-0.283044239	PRL
+TSTO	Urea	-0.24492177	TSTO
+TSTO	UA	0.246201928	TSTO
+PROG	Cys.C	-0.17967745	PROG
+PROG	Urea	-0.135965591	PROG
+PROG	UA	-0.17198332	PROG
